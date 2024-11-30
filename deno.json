@@ -2,7 +2,8 @@
   "tasks": {
     "dev": "deno run --watch main.ts",
     "hello_world": "deno run hello-world.ts",
-    "deno:test": "deno test"
+    "deno:test": "deno test",
+    "deno:fix": "deno lint --fix"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
